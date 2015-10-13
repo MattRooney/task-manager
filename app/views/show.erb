@@ -1,5 +1,11 @@
-<a href="/tasks">Task Index</a>
+<div class="container">
+  <div class="row">
+    <div class=" col-md-6 col-md-offset-3 well well-sm text-center">
+      <a href="/tasks">Back to Task Index</a>
 
-<h1><%= @task.title %></h1>
+      <h2><%= @task.title.capitalize %></h1>
 
-<p><%= @task.description %></p>
+      <p><%= @task.description.capitalize %></p>
+    </div>
+  </div>
+</div>

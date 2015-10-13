@@ -12,4 +12,10 @@ tasks:
 - id: 4
   title: sandwich
   description: ham
-total: 4
+- id: 5
+  title: new task
+  description: tasky-task
+- id: 6
+  title: New test task
+  description: you know. to test the task.
+total: 6
