@@ -2,10 +2,7 @@
 tasks:
 - id: 1
   title: pizza
-  description: pepperoni
-- id: 2
-  title: pizza
-  description: margherita
+  description: cheese
 - id: 4
   title: sandwich
   description: ham
