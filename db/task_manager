@@ -6,9 +6,6 @@ tasks:
 - id: 4
   title: sandwich
   description: ham
-- id: 5
-  title: new task
-  description: tasky-task
 - id: 6
   title: New test task
   description: you know. to test the task.
