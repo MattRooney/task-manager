@@ -3,6 +3,8 @@ require_relative '../test_helper'
 class IndexTest < FeatureTest
 
   def test_user_can_edit_a_task
+    skip
+
     TaskManager.create(title: "New Task", description: "New task description")
 
     visit '/tasks'
@@ -12,6 +14,8 @@ class IndexTest < FeatureTest
   end
 
   def test_user_can_see_a_task
+    skip
+
     TaskManager.create(title: "Task title", description: "New task description")
 
     visit '/tasks'
@@ -21,6 +25,8 @@ class IndexTest < FeatureTest
   end
 
   def test_user_can_hold_two_tasks
+    skip
+
     TaskManager.create(title: "Task title", description: "New task description")
     TaskManager.create(title: "Task two", description: "Second description")
 

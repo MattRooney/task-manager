@@ -3,6 +3,8 @@ require_relative '../test_helper'
 class NewTest < FeatureTest
 
   def test_user_can_create_a_task
+    skip
+
     TaskManager.create(title: "Task title", description: "New task description")
 
     visit '/tasks'
