@@ -1,0 +1,11 @@
+<h1>All Users</h1>
+
+<div id="tasks">
+  <% @users.each do |user| %>
+    <h1><%= user.name %></h1>
+    <% user.tasks.each do |task| %>
+      <h3><%= task.title %></h3>
+      <p><%= task.description %></p>
+    <% end %>
+  <% end %>
+</div>

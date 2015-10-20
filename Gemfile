@@ -1,10 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'sinatra', require: 'sinatra/base'
-gem 'shotgun'
-gem 'minitest'
-gem 'pry'
-gem 'capybara'
-gem 'sequel'
 gem 'sqlite3'
-gem 'database_cleaner'
+gem 'activerecord'
+gem 'sinatra-activerecord'
+
+group :development, :test do
+  gem 'shotgun'
+  gem 'minitest'
+  gem 'tux'
+  gem 'capybara'
+end
