@@ -4,10 +4,10 @@
       <form action="/tasks" method="post">
         <h1 class="text-center">Enter a new task</h1>
         <label for="task[title]">Task Title:</label>
-        <input type='text' class="form-control" name='task[title]'/><br/>
+        <input type='text' id="task-title" class="form-control" name='task[title]'/><br/>
         <label for="task[description]">Description:</label>
-        <textarea class="form-control" name='task[description]'></textarea><br/>
-        <input type='submit' class="form-control btn-primary"/>
+        <textarea id="task-description" class="form-control" name='task[description]'></textarea><br/>
+        <input type='submit' value="Create Task" class="form-control btn-primary"/>
       </form>
     </div>
   </div>

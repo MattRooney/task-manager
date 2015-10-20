@@ -4,7 +4,7 @@ class TaskManager
     if ENV["RACK_ENV"] == "test"
       @database ||= Sequel.sqlite("db/task_manager_test.sqlite3")
     else
-      @database ||= Sequel.sqlite3("db/task_manager_development.sqlite3")
+      @database ||= Sequel.sqlite("db/task_manager_development.sqlite3")
     end
   end
 
